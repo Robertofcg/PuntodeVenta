@@ -1,0 +1,68 @@
+#Formulario{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    background-color: white !important;
+    border-radius: 10px;
+}
+#Formulario input{
+    border-color: #dcdcdc;
+}
+
+#car{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    background-color: white !important;
+    border-radius: 10px;
+}
+
+#Contenido{
+    background-color: #dcdcdc;
+}
+
+.formm{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    background-color:white !important;
+    margin: 3%;
+    overflow-y: scroll;
+    
+}
+
+.thead{
+    background-color: #17252A;
+    color: #ffffff;
+    text-align: center;
+}
+.butt {
+    background-color: #49a3c4; 
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.Busq{
+    max-height: 10px;
+    overflow-y: scroll;
+}
+
+.formmm{
+    padding: 1em;
+    margin: 1em 0 1em 4em;
+    width: 910px;
+    position: relative;
+}
+
+#FormularioRango{
+    position: absolute;
+    top: 42px;
+    left: 50px;
+    margin-left: 760px;
+
+}
+
+#BtnBuscar{
+    margin-left: 130px;
+}

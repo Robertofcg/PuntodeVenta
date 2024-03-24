@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #dcdcdc	;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    width: auto;
+}
+
+.nav__link{
+    color: white;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+.nav__link{
+    border-radius: 6px ;
+    padding-right: 20px;
+    padding-left: 5px;
+    text-align: left;
+}
+.nav__link:hover{
+    background: #F6F8FA;
+    color: black;
+}
+
+.nav__link--inside{
+    border-radius: 6px ;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.nav__link--inside:hover{
+    background: #F6F8FA;
+    color: black;
+}
+
+.list{
+    font-size: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 0px 10px 0;
+    background: #29619c;
+}
+
+.list__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.list__item--click{
+    cursor: pointer;
+}
+
+.list__button{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.arrow .list__arrow{
+    transform: rotate(90deg);
+}
+
+.list__arrow{
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.list__show{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid #303440;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
+.navegador{
+    background-color: #17252A;
+}
+
+/* para tablets grandes */
+@media (max-width:991px){
+    .list{
+        height: fit-content;
+    }    
+}
+
+  /* pantallas medianas */
+
+  @media (max-width:768px){
+    .list{
+        margin-block-end: 0;
+        height: fit-content;
+    }
+  }
+
+  header{
+    background-color: #29619c;
+    padding: 2px;
+    margin-left: -12px;
+    margin-right: -12px
+}
+h1.fant {
+    color: white;
+    font-size: 27px;
+}
+h1{
+    text-align: right;
+    margin-right: 100px;
+}
